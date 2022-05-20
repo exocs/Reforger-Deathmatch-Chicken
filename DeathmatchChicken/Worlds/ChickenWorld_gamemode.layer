@@ -1,0 +1,7 @@
+SCR_BaseGameMode DeathmatchChicken : "{17A69CB638261432}Prefabs/MP/Modes/DeathmatchChicken/GameMode_DeathmatchChicken.et" {
+ components {
+  SCR_ChickenGameModeComponent "{59695DA33D26A9A5}" {
+  }
+ }
+ coords 101.888 1.001 125.154
+}

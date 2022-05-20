@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterSoundComponent "{520EA1D2F659CF84}" {
+   Filenames + {
+    "{C119F1A1675A3E73}Sounds/Chicken.acp"
+   }
+  }
+ }
+}

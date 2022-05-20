@@ -1,0 +1,35 @@
+$grp SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
+ {
+  coords 218.27 1.001 216.198
+  angleY -150
+ }
+ {
+  coords 218.27 1.001 43.698
+ }
+ {
+  coords 29.27 1.001 214.698
+  angleY 135
+ }
+ {
+  coords 22.77 1.001 33.198
+  angleY 30
+ }
+ {
+  coords 130.77 1.001 124.698
+ }
+ {
+  coords 131.77 1.001 211.698
+  angleY 180
+ }
+ {
+  coords 126.77 1.001 38.198
+ }
+ {
+  coords 28.77 1.001 121.698
+  angleY 90
+ }
+ {
+  coords 214.77 1.001 122.198
+  angleY -90
+ }
+}

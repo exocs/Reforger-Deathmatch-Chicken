@@ -1,0 +1,202 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 24589
+   name "Signal 24"
+   tl -610.139 139.861
+   res "{A801B27A708153A6}Sounds/_SharedData/Signals/Character/Character_Spatiality.sig"
+   inputsport {
+    1 2 3
+   }
+   outputsport {
+    9
+   }
+   inputvalues {
+    0 0 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 1
+   }
+  }
+ }
+ sounds {
+  SoundClass {
+   id 6153
+   name "CLUCK_1_SOUND"
+   tl 246.568 31.476
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 3090
+       port 65
+      }
+     }
+    }
+   }
+   eventNoRepeatTimeMSec 150
+   type "One shot"
+   eventType "OnStart - Start"
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3090
+   name "Shader 3"
+   tl -97.143 65.714
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 7172
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 13340
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 25619
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 25619
+   name "Amplitude 4"
+   tl -287.778 323.333
+   curve "1/r"
+   outerRange 20
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 7172
+   name "Cluck Bank"
+   tl -323.651 33.698
+   "Volume variance" 0.5
+   "Pitch variance" 0.5
+   "Random start offset" 1
+   "Fade in function" SCurve
+   "Fade in time" 10
+   "Fade out function" SCurve
+   "Fade out time" 150
+   Samples {
+    AudioBankSampleClass "Sample(1)" {
+     Filename "{451936C8E156AB9B}Sounds/Chicken/chicken_cluck_bwak_seq_01.wav"
+    }
+    AudioBankSampleClass "Sample(2)" {
+     Filename "{DC078F51FCB19A0B}Sounds/Chicken/chicken_cluck_bwak_seq_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Sample(3)" {
+     Filename "{AB0DE7D90813757B}Sounds/Chicken/chicken_cluck_bwak_seq_03.wav"
+     Index 2
+    }
+    AudioBankSampleClass "Sample(4)" {
+     Filename "{ACCA1D886E95CFB8}Sounds/Chicken/chicken_cluck_bwak_seq_04.wav"
+     Index 3
+    }
+    AudioBankSampleClass "Sample(5)" {
+     Filename "{DBC075009A3720C8}Sounds/Chicken/chicken_cluck_bwak_seq_05.wav"
+     Index 4
+    }
+    AudioBankSampleClass "Sample(6)" {
+     Filename "{42DECC9987D01158}Sounds/Chicken/chicken_cluck_bwak_seq_06.wav"
+     Index 5
+    }
+    AudioBankSampleClass "Sample(7)" {
+     Filename "{35D4A4117372FE28}Sounds/Chicken/chicken_cluck_bwak_seq_07.wav"
+     Index 6
+    }
+    AudioBankSampleClass "Sample(8)" {
+     Filename "{4D51383B4ADD64DE}Sounds/Chicken/chicken_cluck_bwak_seq_08.wav"
+     Index 7
+    }
+    AudioBankSampleClass "Sample(9)" {
+     Filename "{3A5B50B3BE7F8BAE}Sounds/Chicken/chicken_cluck_bwak_seq_09.wav"
+     Index 8
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 13340
+   name "Spatiality 13"
+   tl -363.75 160
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 24589
+         port 9
+        }
+       }
+      }
+     }
+    }
+   }
+   SpatialFactorSource Signal
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 11293
+   name "AuxOut 11"
+   tl 495.556 36.666
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 6153
+         port 5
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ version 1
+}

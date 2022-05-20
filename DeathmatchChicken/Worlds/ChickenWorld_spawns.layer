@@ -1,0 +1,75 @@
+$grp SCR_SpawnPoint : "{5392C4D80E4B18F8}Prefabs/MP/Spawning/SpawnPoint_FFA.et" {
+ {
+  coords 206.1 1 186.654
+  angleY -150
+ }
+ {
+  coords 220.69 1 41.43
+ }
+ {
+  coords 52.353 2.251 202
+  angleY 165
+ }
+ {
+  coords 22.77 1 33.198
+  angleY 30
+ }
+ {
+  coords 130.77 1.101 124.698
+ }
+ {
+  coords 131.77 1 211.698
+  angleY 180
+ }
+ {
+  coords 126.77 1 38.198
+ }
+ {
+  coords 19.643 1 122.226
+  angleY -135
+ }
+ {
+  coords 214.77 1.001 122.198
+  angleY 90
+ }
+ {
+  coords 173.789 1 200.69
+  angleY -105
+ }
+ {
+  coords 75.159 1 216.974
+  angleY 105
+ }
+ {
+  coords 219.77 1.001 102.698
+  angleY 90
+ }
+ {
+  coords 205.77 1 93.198
+  angleY 90
+ }
+ {
+  coords 216.69 1 29.43
+  angleY -45
+ }
+ {
+  coords 171.483 1 48.248
+  angleY 180
+ }
+ {
+  coords 53.79 1 25.136
+  angleY 105
+ }
+ {
+  coords 76.032 1 121.669
+  angleY 150
+ }
+ {
+  coords 74.634 1 158.002
+  angleY -15
+ }
+ {
+  coords 98.662 1 157.193
+  angleY 45
+ }
+}

@@ -1,0 +1,116 @@
+$grp SCR_DestructibleBuildingEntity : "{10DB3EEB6DB494AD}Prefabs/Structures/Houses/Town/House_Town_E_2I02_Base.et" {
+ {
+  coords 117.171 0.001 237.203
+ }
+ {
+  coords 163.175 0.001 135.519
+  angleY -45
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{23ED22AC15AA9EE7}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01_Base.et" {
+ {
+  coords 80.25 0.001 156.917
+ }
+ {
+  coords 212.566 0.001 17.02
+ }
+}
+SCR_DestructibleBuildingEntity : "{578B698AE1F03DE9}Prefabs/Structures/Houses/Village/House_Village_E_1I04_base.et" {
+ coords 104.202 0.001 152.334
+ angleY -45
+}
+$grp SCR_DestructibleBuildingEntity : "{79CE8730C95EFD23}Prefabs/Structures/Houses/Village/House_Mountain_E_1I01_Base.et" {
+ {
+  coords 98.308 0.001 100.621
+ }
+ {
+  coords 57.792 0.001 38.147
+  angleY -75
+ }
+ {
+  coords 55.745 0.001 96.239
+  angleY -90
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7B848786FAA52728}Prefabs/Structures/Houses/Prefrabricated/House_Prefab_2I01_base.et" {
+ {
+  coords 161.283 0.104 13.268
+ }
+ {
+  coords 216.283 0.104 71.768
+ }
+ {
+  coords 225.812 0.104 180.658
+  angleY 75
+ }
+ {
+  coords 171.706 0.104 231.9
+  angleY 30
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{906CB40C3D7DBA68}Prefabs/Structures/Military/Houses/GuardHouse_02_base.et" {
+ {
+  coords 149.741 0.001 94.567
+ }
+ {
+  coords 76.146 0.001 126.716
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{959977CBD62F40DE}Prefabs/Structures/Military/Houses/GuardHouse_03_base.et" {
+ {
+  coords 19.268 0.001 165.769
+ }
+ {
+  coords 24.204 0.001 229.843
+  angleY 105
+ }
+ {
+  coords 116.519 0.001 26.693
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A31C6EAC2D6E8BA2}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01_Base.et" {
+ {
+  coords 38.884 0.001 123.565
+  angleY -45
+ }
+ {
+  coords 97.323 0.001 59.019
+  angleY -60
+ }
+ {
+  coords 126.956 0.001 126.554
+  angleY -75
+ }
+ {
+  coords 188.272 0.001 181.427
+  angleY -105
+ }
+ {
+  coords 58.36 0.001 200.517
+  angleY -15
+ }
+ {
+  coords 14.69 0.001 67.698
+  angleY 90
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CEB1F71D46592F3C}Prefabs/Structures/Airport/Hangar_01.et" {
+ {
+  coords 124.664 0.001 189.022
+ }
+ {
+  coords 210.664 0.001 117.022
+  angleY 90
+ }
+ {
+  coords 168.704 0.001 54.016
+  angleY 165
+ }
+}
+SCR_DestructibleBuildingEntity : "{DAB70F359B58E2DC}Prefabs/Structures/Houses/Village/House_Mountain_E_1I01_short_Base.et" {
+ coords 216.219 0.001 217.111
+ angleY -60
+}
+SCR_DestructibleBuildingEntity : "{FD91931F589C05BF}Prefabs/Structures/Houses/Town/House_Town_E_2I03/House_Town_E_2I03_Base.et" {
+ coords 52.96 0.001 168.414
+}

@@ -1,0 +1,15 @@
+Layer default {
+ Index 0
+}
+Layer managers {
+ Index 1
+}
+Layer gamemode {
+ Index 2
+}
+Layer spawns {
+ Index 3
+}
+Layer props {
+ Index 4
+}

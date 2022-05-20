@@ -1,0 +1,8 @@
+GameProject {
+ ID "DeathmatchChicken"
+ GUID "5969291AA577F0A1"
+ TITLE "Deathmatch Chicken"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

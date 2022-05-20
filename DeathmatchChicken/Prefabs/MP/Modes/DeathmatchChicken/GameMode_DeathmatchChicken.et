@@ -1,0 +1,12 @@
+SCR_BaseGameMode : "{1B76F75A3175E85C}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_AutomaticRespawnHandlerComponent "{56B4EA4DA0EEFF85}" {
+  }
+  SCR_ChickenGameModeComponent "{59695DA33D26A9A5}" {
+   m_fCluckTimer 2
+   m_fCluckDistance 0.075
+  }
+ }
+ coords 120.757 1.001 156.387
+}
