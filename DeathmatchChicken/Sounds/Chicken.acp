@@ -97,7 +97,7 @@ AudioClass {
    name "Amplitude 4"
    tl -287.778 323.333
    curve "1/r"
-   outerRange 20
+   outerRange 120
   }
  }
  banks_local {
